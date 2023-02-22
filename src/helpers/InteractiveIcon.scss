@@ -1,0 +1,13 @@
+.interactive {
+    display: inline-block;
+    box-sizing: content-box;
+    justify-content: center;
+
+    svg {
+        vertical-align: text-top;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}
