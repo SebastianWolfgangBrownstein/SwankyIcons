@@ -1,7 +1,8 @@
 {
   "name": "@sebthedev/swanky-icons",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/SebastianWolfgangBrownstein"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "version": "1.0.0",
   "description": "React Icon Component Library",
@@ -21,13 +22,20 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.1",
     "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
     "@rollup/plugin-typescript": "^11.0.0",
     "@types/react": "^18.0.28",
-    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rollup": "^3.17.2",
     "rollup-plugin-dts": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "sass": "^1.58.3",
     "tslib": "^2.5.0",
     "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

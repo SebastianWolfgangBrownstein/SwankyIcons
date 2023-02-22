@@ -1,5 +1,6 @@
 import { ReactElement } from 'react';
 import { linspace, intArray } from '../helpers/math';
+import colors from './styles/colors.module.scss'
 
 type IconProps = {
     width?: number | string;
@@ -25,12 +26,12 @@ export enum IconThickness {
     Thin = 'thin'
 }
 
-const defaultFillGradient = ['#affcaf', '#8367c7'];
+const defaultFillGradient = colors.iconGradient3 === '#ffff' ? [colors.iconGradient1, colors.iconGradient2] : [colors.iconGradient1, colors.iconGradient2, colors.iconGradient3];
 const defaultFillGradientStops = generateStops(defaultFillGradient);
 const defaultFillOpacities = generateOpacities(defaultFillGradient);
 
 export const defaults = {
-    fillColor: "#affcaf",
+    fillColor: colors.defaultFill,
     fillGradient: defaultFillGradient,
     fillGradientOpacities: defaultFillOpacities,
     fillGradientStops: defaultFillGradientStops

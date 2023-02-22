@@ -1,0 +1,11 @@
+$default-fill: #affcaf;
+$icon-gradient-1: #bf0fff;
+$icon-gradient-2: #610db0;
+$icon-gradient-3: #ffff;
+
+:export {
+    defaultFill: $default-fill;
+    iconGradient1: $icon-gradient-1;
+    iconGradient2: $icon-gradient-2;
+    iconGradient3: $icon-gradient-3;
+}
