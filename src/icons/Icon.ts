@@ -5,7 +5,7 @@ import colors from './styles/colors.module.scss'
 type IconProps = {
     width?: number | string;
     height?: number | string;
-    fillcolor?: string;
+    fillColor?: string;
     hoverColor?: string;
     fillGradient?: string[];
     title?: string;
