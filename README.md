@@ -1,7 +1,7 @@
 <h1 align="center"><strong>Swanky Icons</strong></h1>
 
 
-#### React component library of customizable interactive icons
+#### React component library of 54 customizable interactive icons
 
 <h1 align="left"><strong>Basic Usage</strong></h1>
 
